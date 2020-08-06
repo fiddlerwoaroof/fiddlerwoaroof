@@ -1,5 +1,15 @@
-| Name | Number |
-|------+--------|
-| test |      1 |
-| tset |      2 |
-|------+--------|
+
+* Common Lisp
+
+** https://github.com/fiddlerwoaroof/cl-edn.git
+
+   An EDN parser for Common Lisp, has a nice example of "protocols":
+   collections of coordinated multimethods that can be specialized to
+   adjust the behavior of the library.
+
+** https://github.com/fiddlerwoaroof/araneus.git
+
+   A minimal web-framework for CL that wraps Fukamachi's ningle.
+   Built around a set of multimethods to separate getting the data for
+   a view from the actual view.  Because of the multimethods, classes
+   can be used to drive different views for different situations.
